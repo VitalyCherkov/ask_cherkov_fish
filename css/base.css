@@ -40,6 +40,11 @@ p {
     float: right;
 }
 
+.post-mini-category {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
 .post-statistics {
     margin: 0;
     padding: 0;
@@ -48,13 +53,6 @@ p {
 
 .post-statistics ul {
     margin: 5px;
-}
-
-.post-statistics ul li {
-    background-color: white;
-    border: none;
-    outline: none;
-    padding: 5px;
 }
 
 .user-short-photo {
