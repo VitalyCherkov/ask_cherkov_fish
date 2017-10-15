@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Студенческая инициатива</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Поактивничаем?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Актуальное<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Свежее</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Категории</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Хронология</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Имечко Фамилия
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                        <a class="dropdown-item" href="#">Создать инициативу</a>
+                        <a class="dropdown-item" href="#">Мои инициативы</a>
+                        <a class="dropdown-item" href="#">Настройки</a>
+                        <a class="dropdown-item" href="#">Выход</a>
+                    </div>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row jumbotron justify-content-center">
+    <div class="welcome-text col-lg-4 col-md-6">
+        <h2>Поактивничаем?</h2>
+        <p>Портал студенческих инициатив МГТУ им. Н.Э. Баумана</p>
+    </div>
+
+    <form class="welcome-register col-lg-4 col-md-6">
+        <div class="form-group row">
+            <label for="inputEmail" class="col-md-4 col-form-label">Email</label>
+            <div class="col-md-8">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-md-4 col-form-label">Пароль</label>
+            <div class="col-md-8">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="repeatPassword" class="col-md-4 col-form-label">Повторите пароль</label>
+            <div class="col-md-8">
+                <input type="password" class="form-control" id="repeatPassword" placeholder="Password">
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-danger " id="register">Зарегестрироваться</button>
+    </form>
+</div>
+
+<div class="middle container-fluid">
+    <div class="row justify-content-center">
+        <div class="content col-lg-6 col-md-8">
+
+            <div class="post card row">
+
+                <div class="card-text post-statistics col-lg-1 col-md-2">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-success"><i class="fa fa-chevron-up" aria-hidden="true"></i> 1234</li>
+                        <li class="list-group-item list-group-item-danger"><i class="fa fa-chevron-down" aria-hidden="true"></i> 1234</li>
+                        <li class="list-group-item"><i class="fa fa-eye" aria-hidden="true"></i> 1234</li>
+                    </ul>
+                </div>
+
+                <div class="card-body col-lg-10 col-md-10">
+
+                    <h2 class="card-title">Приготовление эспрессо</h2>
+                    <p class="card-text">От 8 до 22 граммов свежемолотого кофе засыпается в холдер, тщательно разравнивается и затем
+                        прессуется темпером так, чтобы молотый кофе сформировался в ровную таблетку. Затем через
+                        получившуюся таблетку под давлением 9 бар пропускается разогретая до температуры 92—95 °C
+                        вода. Важно помнить, чтобы время от фиксации портафильтра в дисперсионном экране до нажатия
+                        на соответствующую кнопку на кофемашине не превышало двух секунд, в противном случае кофе
+                        начинает «гореть», сводя всю работу на нет...
+                    </p>
+                    <a class="card-link" href="#">Читать дальше...</a>
+                </div>
+                <div class="card-body">
+                    other text
+                </div>
+            </div>
+
+
+            <div class="post card">
+                <h2 class="card-header">Приготовление эспрессо
+                    <a href="#" class="badge badge-primary">Category</a>
+                </h2>
+                <div class="post-content panel-body">
+                    <div class="post-statistics col-lg-1 col-md-1">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-success"><i class="fa fa-chevron-up" aria-hidden="true"></i> 1234</li>
+                            <li class="list-group-item list-group-item-danger"><i class="fa fa-chevron-down" aria-hidden="true"></i> 1234</li>
+                            <li class="list-group-item"><i class="fa fa-eye" aria-hidden="true"></i> 1234</li>
+                        </ul>
+                    </div>
+                    <div class="post-text col-lg-11 col-md-11">
+                        <p>От 8 до 22 граммов свежемолотого кофе засыпается в холдер, тщательно разравнивается и затем
+                            прессуется темпером так, чтобы молотый кофе сформировался в ровную таблетку. Затем через
+                            получившуюся таблетку под давлением 9 бар пропускается разогретая до температуры 92—95 °C
+                            вода. Важно помнить, чтобы время от фиксации портафильтра в дисперсионном экране до нажатия
+                            на соответствующую кнопку на кофемашине не превышало двух секунд, в противном случае кофе
+                            начинает «гореть», сводя всю работу на нет. Тонкость помола эспрессо выставляется таким
+                            образом, чтобы эспрессо объёмом 30 мл экстрагировался за 25—30 секунд, через 1,5—2,5 секунды
+                            прединфузии. Соотношение правильного помола, правильной темперовки (упрессовывания молотого
+                            кофе в холдере путём создания силы в 15—20 килограммов[источник не указан 664 дня]), правильной
+                            температуры воды и её стабильности, а также верного количества молотого кофе (около 8—12 или
+                            18—22 граммов, сингл-, даблхолдер соответственно) — залог правильного приготовления. Даже
+                            незначительное изменение любого аспекта из перечисленных испортит конечный продукт.
+                            Визуально правильность приготовления определяется по цвету пенки (итал. crema) и по
+                            изгибающейся в первые секунды струйке кофе (так называемый «мышиный хвостик»).
+                        </p>
+
+                        <p class="post-tags col-lg-8 col-md-6">
+                            <button type="button" class="btn btn btn-xs">Кофе</button>
+                            <button type="button" class="btn btn btn-xs">Капучино</button>
+                            <button type="button" class="btn btn btn-xs">Столовая</button>
+                        </p>
+                        <div class="user-short col-lg-4 col-md-6">
+                            <img src="../img/user_empty.png" class="user-short-photo img-rounded">
+                            <div class="user-short-info">
+                                <h4>Имечко Фамилия</h4>
+                                <p>Новичок</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-footer">
+
+                </div>
+                    <br>
+            </div>
+
+        </div>
+        <div class="sidebar col-lg-2 col-md-2">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer container">
+
+</div>
+
+
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://popper.js.org"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
